@@ -11,6 +11,4 @@ setup:
 build:
   docker:
     web: Dockerfile
-    worker: Dockerfile
-run:
-  worker: n8n worker
+    worker: worker/Dockerfile
